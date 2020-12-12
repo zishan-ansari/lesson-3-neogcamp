@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,700&display=swap');
 :root{
     --primary-color: #FBBF24;
+    --gray-color:#6B7280;
 }
 
 body{
@@ -67,6 +68,19 @@ hr{
     font-weight: bold;
 
 }
+.hero{
+    padding:2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    color:var(--gray-color);
+}
+
 
 
 
