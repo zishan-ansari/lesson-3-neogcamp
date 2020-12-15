@@ -90,7 +90,8 @@ hr{
 }
 .ow{
     background-color: var(--off-white);
-    text-align: center;
+    text-align: auto;
+    
 }
 .footer{
     background-color: var(--primary-color);
@@ -101,12 +102,14 @@ hr{
 
 
 }
+
 .footer .link{
     color:white;
 }
 .footer .ul{
     padding-inline-start:0px;
 }
+
 
 
 
