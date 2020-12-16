@@ -12,6 +12,9 @@ body{
 hr{
     margin:1rem 0rem;
 }
+.margin-mid{
+    margin: 2rem;
+}
 .container{
     padding-left:1rem; 
     padding-right:1rem;
@@ -96,7 +99,7 @@ hr{
 }
 .footer{
     background-color: var(--primary-color);
-    padding:2rem,1rem;
+    padding:1rem;
     text-align: center;
     color:white;
     border-top-right-radius: 1rem;
