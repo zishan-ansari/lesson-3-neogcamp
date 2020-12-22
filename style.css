@@ -6,8 +6,10 @@
 }
 
 body{
-    font-family: 'Nunito', sans-serif;
-    margin:0px;
+    
+    font-family: 'Montserrat', sans-serif;
+    max-width: 800px;
+    margin: auto;
 }
 hr{
     margin:1rem 0rem;
@@ -89,12 +91,12 @@ hr{
 .section{
     padding:2rem;
 }
-.section h1{
-    text-align: center;
-}
+
+
+
 .ow{
     background-color: var(--off-white);
-    text-align: auto;
+    
     
 }
 .footer{
