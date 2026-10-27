@@ -47,8 +47,7 @@ h1 span{background:linear-gradient(100deg,var(--g),var(--bl) 55%,var(--a));-webk
 .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
 .ch{font:12.5px var(--m);padding:8px 14px;border-radius:30px;border:1px solid var(--b);background:var(--s);color:var(--d);cursor:pointer;transition:.2s}
 .ch:hover{border-color:var(--g);color:var(--g);transform:translateY(-2px)}
-.ph{position:relative;width:min(280px,70vw);aspect-ratio:1;margin:0 auto 22px;border-radius:50%;padding:4px;background:conic-gradient(from 0deg,var(--g),var(--bl),var(--a),var(--g));animation:sp 8s linear infinite}
-@keyframes sp{to{filter:hue-rotate(360deg)}}
+.ph{position:relative;width:min(280px,70vw);aspect-ratio:1;margin:0 auto 22px;border-radius:50%;padding:4px;background:linear-gradient(135deg,var(--g),var(--bl));box-shadow:0 20px 50px -20px rgba(34,196,147,.45)}
 .ph img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:5px solid var(--bg);display:block}
 .card{position:relative;background:var(--s);border:1px solid var(--b);border-radius:16px;padding:24px;overflow:hidden;transition:transform .25s,border-color .25s}
 .card:before{content:'';position:absolute;inset:0;background:radial-gradient(320px circle at var(--x,50%) var(--y,0),rgba(34,196,147,.16),transparent 70%);opacity:0;transition:.3s;pointer-events:none}
